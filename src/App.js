@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import IsraelPrimeVideo from './IsraelPrimeVideo';
+import './App.css';
+
 const App = () => {
   return (
-    <>
-      <p>Welcome</p>
-    </>
+    <IsraelPrimeVideo/>
   );
 }
 
