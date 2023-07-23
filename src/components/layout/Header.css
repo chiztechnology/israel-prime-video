@@ -2,4 +2,15 @@
     width: 100%;
     height: 70px;
     background-color: #032541;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger-container {
+    width: 20px;
+    height: auto;
+    background-color: #fff;
+    -webkit-mask: url('../../../public/glyphicons-basic-600-menu-7ef6e3f4266b4b216a8ef5920da43fc8c96e1ee805a219c5628fed5bfac854d5.svg') no-repeat center;
+    mask: url('../../../public/glyphicons-basic-600-menu-7ef6e3f4266b4b216a8ef5920da43fc8c96e1ee805a219c5628fed5bfac854d5.svg') no-repeat center;
 }
